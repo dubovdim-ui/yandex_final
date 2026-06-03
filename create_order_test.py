@@ -1,7 +1,7 @@
 import data
 import sender_stand_requests
 
-# Вадим Галкин, 40-я когорта, финальный проект. Инженер по тестированию плюс
+# Дмитрий Дубов, 42-я когорта, финальный проект. Инженер по тестированию плюс
 def test_status_order_is_200():
     order = sender_stand_requests.create_order(data.order_body)
     track_number = order.json()["track"]
